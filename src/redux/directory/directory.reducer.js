@@ -47,8 +47,8 @@ const INITIAL_STATE = {
           linkUrl: 'shop/mens'
         },
         {
-          title: 'Watch & Clock',
-          imageUrl: 'https://ae01.alicdn.com/kf/HTB1jHCEjNHI8KJjy1zbq6yxdpXa2/LIGE-Mens-Watches-Top-Brand-Luxury-Business-Schoolboy-Automatic-Mechanical-Watch-Sports-Waterproof-Men-Watch-Military.jpg',
+          title: 'Watch ',
+          imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/61WixzlVuXL._UL1280_.jpg',
           size: 'large',
           id: 8,
           linkUrl: 'shop/mens'
@@ -67,7 +67,7 @@ const INITIAL_STATE = {
           linkUrl: 'shop/mens'
         },
         {
-          title: 'Electronics Media',
+          title: ' Media',
           imageUrl: 'https://www.mega.pk/items_images/t_19154.png',
           size: 'large',
           id: 11,

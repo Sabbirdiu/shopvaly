@@ -1,7 +1,7 @@
 import React,{Component} from 'react';
 import Homepage from './pages/homepage/Homepage';
 import { Route,Switch,Redirect } from 'react-router-dom';
-import './App.css';
+import {GlobalStyle} from './globalstyle'
 import ShopPage from './pages/shop/ShopPage'
 import Header from './components/header/Header'
 import SignInAndSignUpPage from './pages/sign-in-and-sign-up/SignInAndSignUpPage'
@@ -48,6 +48,7 @@ class App extends Component {
 
   return (
     <div className="App">
+       <GlobalStyle/>
      <Header/>
      <Switch>
 

@@ -23,7 +23,7 @@ const Header = ({currentUser,hidden}) => {
         <div className='header' >
             <Link to = "/">
                 <strong>
-                   <span style={{color:'orange' ,fontSize:'30px'}}>Easy</span> Shop</strong>
+                   <span style={{color:'orange' ,fontSize:'30px'}}>Shop</span> valy</strong>
             </Link>
             <div className='options' >
                 
