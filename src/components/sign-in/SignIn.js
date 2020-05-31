@@ -36,33 +36,41 @@ export class SignIn extends Component {
     return (
       <div className='sign-in'>
         <span>Sign In with your email and password</span>
-        <form onSubmit={this.state.handlerSubmit}>
-          <FormInput
-            name='email'
-            type='email'
-            value={this.state.email}
-            handleChange={this.handlerChange}
-            placeholder='Email....'
-            required
-          />
+        <div>
+          <form onSubmit={this.state.handlerSubmit}>
+            <FormInput
+              name='email'
+              type='email'
+              value={this.state.email}
+              handleChange={this.handlerChange}
+              placeholder='Email....'
+              required
+            />
 
-          <FormInput
-            name='password'
-            type='password'
-            value={this.state.password}
-            handleChange={this.handlerChange}
-            placeholder='Password.......'
-            required
-          />
-          <div className='buttons'>
-            <CustomButton type='submit'> Sign In </CustomButton>
-            <CustomButton onClick={signInWithGoogle} isGoogleSignIn>
-              Sign in with google
-            </CustomButton>
-          </div>
-        </form>
+            <FormInput
+              name='password'
+              type='password'
+              value={this.state.password}
+              handleChange={this.handlerChange}
+              placeholder='Password.......'
+              required
+            />
+            <div className='buttons'>
+              <CustomButton type='submit'> Sign In </CustomButton>
+              <CustomButton
+                style={{ marginLeft: '10px' }}
+                onClick={signInWithGoogle}
+                isGoogleSignIn
+              >
+                Sign in with google
+              </CustomButton>
+            </div>
+          </form>
+        </div>
         <p>Needan account?</p>
-        <Link to='signup'>SignUp</Link>
+        <Link className='nav-link' to='signup'>
+          <CustomButton type='submit'> SignUp </CustomButton>
+        </Link>
       </div>
     );
   }
