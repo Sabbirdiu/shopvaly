@@ -92,9 +92,12 @@ class SignUp extends Component {
               Sign Up
             </CustomButton>
           </form>
-          <p>Already have an account?</p>
-          <Link to='signin' className='nav-link' style={{ color: 'gray' }}>
-            SignIn
+          <p style={{ color: 'green' }}>Already have an account?</p>
+          <Link to='signin' className='nav-link'>
+            <CustomButton type='submit' style={{ marginLeft: '40%' }}>
+              {' '}
+              SignIn{' '}
+            </CustomButton>
           </Link>
         </div>
       </div>
