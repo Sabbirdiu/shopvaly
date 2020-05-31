@@ -22,6 +22,9 @@ const Header = ({ currentUser, hidden }) => {
         </strong>
       </Link>
       <div className='options'>
+        <Link className='option nav-link' to='/'>
+          Category
+        </Link>
         <Link className='option nav-link' to='/shop'>
           Product
         </Link>
